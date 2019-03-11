@@ -2,7 +2,7 @@
 	<el-row class="container">
 		<el-col :span="24" class="header">
 			<el-col :span="10" class="logo" :class="collapsed?'logo-collapse-width':'logo-width'">
-				{{collapsed?'':sysName}}
+				技术转化平台
 			</el-col>
 			<el-col :span="10">
 				<div class="tools" @click.prevent="collapse">
@@ -140,7 +140,9 @@
 
 <style scoped lang="scss">
 	@import '~scss_vars';
-	
+	.el-menu{
+		background-color:#FAFAFA;
+	}
 	.container {
 		position: absolute;
 		top: 0px;
